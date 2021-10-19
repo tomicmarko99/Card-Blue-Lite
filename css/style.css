@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.cardBox {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBox .card {
+  width: 400px;
+  padding: 18px;
+  background: #a2d2ff;
+  border-radius: 5px;
+}
+
+.cardBox .card .imgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background: #95ccff;
+}
+
+.cardBox .card .imgBox img {
+  width: 190px;
+  height: auto;
+}
+
+.cardBox .card .textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: center;
+  background: #95ccff;
+  height: 150px;
+  margin: 18px 0;
+}
+
+.cardBox .card .textBox h1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cardBox .card .textBox h4 {
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.cardBox .card .textBox p {
+  font-size: 10px;
+  color: #fff;
+  text-align: justify;
+}
+
+.cardBox .card .btnBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBox .card .btnBox .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: #95ccff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.cardBox .card .btnBox .btn i {
+  margin-left: 15px;
+}
+
+.cardBox .card .btnBox .btn:hover {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardBox .card .btnBox .btn:hover span {
+  text-decoration: underline 2px #fff;
+}
+
+.cardBox .card .btnBox .btn:hover i {
+  margin-left: 25px;
+}
